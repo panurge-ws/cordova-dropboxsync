@@ -10,7 +10,7 @@ Then add the plugin to your cordova project
 cordova plugin add https://github.com/panurge-ws/cordova-dropboxsync
 ```
 
-_Tested in Cordova 3.5.0, iOS 7.1.x _
+**Tested in Cordova 3.5.0, iOS 7.1.x**
 
 ## Usage
 ### Initialize and link
