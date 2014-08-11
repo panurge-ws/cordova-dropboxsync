@@ -84,7 +84,7 @@ cordova.plugins.DropboxSync.writeContentsOfFile(
 ## All the methods 
 _(For the doc, please refer to the [Dropbox Sync API](https://www.dropbox.com/developers/sync/docs/ios))_
 
-cordova.plugins.DropboxSync.initializeWithKeyAndSecret(success, error)
+**cordova.plugins.DropboxSync.initializeWithKeyAndSecret(success, error)
 
 cordova.plugins.DropboxSync.link(success, error)
 
@@ -116,10 +116,10 @@ cordova.plugins.DropboxSync.writeContentsOfFile(success, error, localPath, shoul
 
 cordova.plugins.DropboxSync.writeString(success, error, path, string, createIfNotExixts)
 
-cordova.plugins.DropboxSync.update(success, error, path)
+cordova.plugins.DropboxSync.update(success, error, path)**
 
-// an utility method to touch to the current date a file in the localPath
-cordova.plugins.DropboxSync.touch(success, error, localPath)
+_ An utility method to touch to the current date a file in the localPath_
+**cordova.plugins.DropboxSync.touch(success, error, localPath)**
 
 
 
