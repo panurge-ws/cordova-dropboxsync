@@ -1,4 +1,4 @@
-Dropbox Sync API Plugin for IOS
+Dropbox Sync API Plugin for iOS
 ======
 
 ## Install
