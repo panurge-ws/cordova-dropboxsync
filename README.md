@@ -1,8 +1,8 @@
-DropBox Sync API Plugin for iOS (unofficial)
+DropBox Sync API Cordova / PhoneGap Plugin for iOS (unofficial)
 ======
 
 ## Install
-Install the DroBbox Sync API following this [link](https://www.dropbox.com/developers/sync/sdks/ios).
+Install the DropBbox Sync API following this [link](https://www.dropbox.com/developers/sync/sdks/ios).
 
 Then add the plugin to your cordova project
 
