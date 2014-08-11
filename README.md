@@ -4,11 +4,14 @@ Dropbox Sync API Plugin for iOS
 ## Install
 Install the Dropbox Sync API following this [link](https://www.dropbox.com/developers/sync/sdks/ios).
 
-Then, add to your cordova project
+Then add the plugin to your cordova project
 
 ```javascript
 cordova plugin add https://github.com/panurge-ws/cordova-dropboxsync
 ```
+
+_Tested in Cordova 3.5.0, iOS 7.1.x _
+
 ## Usage
 ### Initialize and link
 ```javascript
