@@ -54,9 +54,11 @@ cordova.plugins.DropboxSync.addObserver(
                 },
                 '/'); // the path of the folder you want to observe
 ```
-This will call a function
+This will call the function dropbox_fileChange in your javascript
 ```javascript
-dropbox_fileChange()
+function dropbox_fileChange(){
+	console.log('files changes!');
+}
 ```
 to notify you that somithing is changed at the path observed
 ### Read files
