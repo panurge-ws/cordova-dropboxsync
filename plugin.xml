@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+    id="it.panurge.DropboxSync" version="1.0.0">
+    <name>DropboxSync</name>
+    <description>DropboxSync IOS Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>DropboxSync</keywords>
+    <repo></repo>
+    <issue></issue>
+
+    <js-module src="www/dropbox-sync.js" name="DropboxSync">
+        <clobbers target="cordova.plugins.DropboxSync" />
+    </js-module>
+
+    <!-- android 
+  <platform name="android">
+
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="DropboxSync">
+        <param name="android-package" value="it.panurge.DropboxSync" />
+        <param name="onload" value="true" />
+      </feature>
+    </config-file>
+
+    <source-file src="src/android/DropboxSync.java" target-dir="src/com/ionic/keyboard" />
+  </platform> -->
+
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="DropboxSync">
+                <param name="ios-package" value="DropboxSync" onload="true" />
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/DropboxSync.h" />
+        <source-file src="src/ios/DropboxSync.m" />
+    </platform>
+
+</plugin>

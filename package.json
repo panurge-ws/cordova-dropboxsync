@@ -1,0 +1,13 @@
+{
+    "version": "1.0.0",
+    "name": "it.panurge.DropboxSync",
+    "cordova_name": "DropboxSync",
+    "description": "DropboxSync Plugin",
+    "repo": "",
+    "issue": "",
+    "license": "MIT",
+    "keywords": [
+        "ionic",
+        "keyboard"
+    ]
+}
