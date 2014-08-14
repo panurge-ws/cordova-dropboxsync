@@ -138,11 +138,11 @@ DropboxSync.writeContentsOfFile = function(success, error, fileName, shouldSteal
         pluginName, "writeContentsOfFile", [fileName, shouldSteal, create]);
 }
 
-DropboxSync.writeString = function(success, error, path, string) {
+DropboxSync.writeString = function(success, error, path, string, create) {
     cordova.exec(
         success,
         error,
-        pluginName, "touch", [path, string]);
+        pluginName, "touch", [path, string, create]);
 }
 
 
